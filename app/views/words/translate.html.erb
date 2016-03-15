@@ -1,0 +1,10 @@
+<h2>Indy Translate</h2>
+
+<div class="lesson_builder">
+    <%= form_tag '/translator', method: :post do %> 
+        <% label_tag "Type or past in what you want to learn" %>
+        
+        <%= text_area_tag :user_input %>
+        <p><%= submit_tag 'Create Lesson'%></p>  
+    <% end %>
+</div>
