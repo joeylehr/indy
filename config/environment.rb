@@ -1,6 +1,8 @@
 # Load the Rails application.
 require File.expand_path('../application', __FILE__)
 
-EasyTranslate.api_key = 'AIzaSyCsdhuctCPtEWAuJ6RGJ1ekBBzXcxO4UIo'
+# Easy Translate key for Google Translate
+EasyTranslate.api_key = Rails.application.secrets.google_translate_api_key
+
 # Initialize the Rails application.
 Rails.application.initialize!

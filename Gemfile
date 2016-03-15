@@ -14,6 +14,9 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Private Key Protection
+gem "figaro"
+
 # Translation gems
 gem "google-translate"
 gem 'easy_translate'
