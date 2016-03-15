@@ -5,7 +5,7 @@ class WordsController < ApplicationController
     end
 
     def translator
-        @translation = EasyTranslate.translate user_input, :format => 'text', :to => :ru
+        @translation = EasyTranslate.translate user_input, :format => 'text', :to => :es
         render 'show'
     end
 
